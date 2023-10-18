@@ -17,8 +17,12 @@ base: "/YOUR_REPOSITORY_NAME",
 
 Change YOUR_REPOSITORY_NAME to the name of your GitHub repository.
 
-4. In terminal type
+4. In this apps case first in terminal I typed
+npm run build
+then
 npm run deploy or yarn deploy
+        {otherwise without the npm run build step it kept asking for a missing dist folder which it did not in earlier deploy cases}
+
 🎉 You now have a gh-pages branch in your repository and your app is deployed (you can check it under Settings -> Pages )
 It took a while for the deployed app to appear in the settings.
 
